@@ -2,10 +2,7 @@ body{
     color: #ffff;
     font-family: gilroy;
 }
-@font-face {
-    font-family: gilroy;
-    src: url("./gilroy-light.otf") format("opentype");
-}
+
 @media screen and (max-width: 798px) {
     .parallax-window {
         min-height: 225px;
@@ -13,6 +10,9 @@ body{
         min-height: 333px;
         margin-left: -65px;
 
+    }
+    .how p{
+        font-size: 11px;
     }
     .logo{
         margin-left: 17%;
@@ -95,6 +95,13 @@ body{
         width: 12%;
         padding-top: 6%;
     }
+    .store2 p{
+        font-size: 14px;
+    }
+    .store2{
+        margin-left: 61px;
+    }
+
 
 
 }
@@ -150,6 +157,9 @@ body{
     }
     .icon{
         padding-top: 6%;
+    }
+    .store2 p{
+        font-size: 30px;
     }
 
 }
@@ -238,5 +248,16 @@ body{
 
 }
 .icon{
-    padding-top: 6%;
+    padding-top: 4%;
+}
+.store2 p{
+    color: #000000;
+    margin-top: 15px;
+    background-image: linear-gradient(to right top, #53335c, #53335d, #53335f, #523460, #523462);
+}
+.footer p{
+    color: #000000;
+}
+.foo{
+    background-image: linear-gradient(to right top, #342239, #332139, #312138, #302038, #2f2037);
 }
