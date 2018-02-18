@@ -101,6 +101,23 @@ body{
     .store2{
         margin-left: 61px;
     }
+    .s2{
+        height: 140px;
+    }
+    .s3{
+        height: 140px;
+    }
+    .store2 p{
+        color: #ECECED;
+        margin-top: 40px;
+
+    }
+    .footer p{
+        font-size: 10px;
+        padding: 10px;
+        padding-left: 85px;
+    }
+
 
 
 
@@ -160,6 +177,22 @@ body{
     }
     .store2 p{
         font-size: 30px;
+    }
+    .s2{
+        height: 300px;
+    }
+    .s3{
+        height: 300px;
+    }
+    .store2 p{
+        color: #ECECED;
+        margin-top: 60px;
+
+    }
+    .footer p{
+        color: #BFCCDD;
+        font-size: 24px;
+        padding: 20px;
     }
 
 }
@@ -250,14 +283,19 @@ body{
 .icon{
     padding-top: 4%;
 }
-.store2 p{
-    color: #000000;
-    margin-top: 15px;
-    background-image: linear-gradient(to right top, #53335c, #53335d, #53335f, #523460, #523462);
-}
-.footer p{
-    color: #000000;
-}
+
 .foo{
     background-image: linear-gradient(to right top, #342239, #332139, #312138, #302038, #2f2037);
+}
+.s2{
+    background-image: linear-gradient(to right top, #53335c, #53335d, #53335f, #523460, #523462);
+}
+.con{
+    margin-top: -28px;
+}
+.footer span{
+    color: #9E6C0A;
+}
+.copy{
+    color: #8A8D91;
 }
