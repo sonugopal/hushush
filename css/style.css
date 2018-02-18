@@ -1,19 +1,28 @@
 body{
     color: #ffff;
+    font-family: gilroy;
+}
+@font-face {
+    font-family: gilroy;
+    src: url("./gilroy-light.otf") format("opentype");
 }
 @media screen and (max-width: 798px) {
     .parallax-window {
         min-height: 225px;
         background: transparent;
         min-height: 333px;
-        margin-left: -32px;
+        margin-left: -65px;
 
+    }
+    .logo{
+        margin-left: 17%;
     }
     .nav-menu{
         display: none;
     }
     .intro{
         margin-top: 8%;
+        margin-left: 7%;
     }
     .intro h1{
         font-size: 18px;
@@ -37,18 +46,47 @@ body{
         margin-top: -3%;
     }
     .watch p{
-        font-size: 8px;
+        font-size: 7px;
         margin-right: 18px;
         padding-top: 2px;
     }
     .store img{
         width: 46%;
     }
+    .dis{
+        width: 50%;
+    }
+    .dis h1{
+        font-size: 22px;
+        width: 215px;
+
+    }
+    .dis p{
+        font-size: 9px;
+    }
+    .scr{
+        width: 50%;
+    }
+    .scr img{
+        width: 501%;
+        margin-left: -34px;
+        margin-top: 397%;
+    }
+    .abtl{
+        width: 65%;
+        float: left;
+
+    }
+    .abtr{
+        width: 20%;
+        float: right;
+    }
+
 
 }
 @media screen and (min-width: 798px) {
     .parallax-window {
-        min-height: 700px;
+        min-height: 800px;
         background: transparent;
 
 
@@ -72,12 +110,26 @@ body{
 
 
     .watch p{
-        font-size: 12px;
+        font-size: 11px;
         margin-right: 43px;
         padding-top: 4px;
     }
     .store img{
         width: 47%;
+    }
+    .logo{
+        margin-left: 13%;
+    }
+    .scr img{
+        width: 70%;
+    }
+    .abt{
+
+            margin-top: 5%;
+
+    }
+    .dis p{
+        font-size: 122%;
     }
 
 }
@@ -85,7 +137,7 @@ body{
     max-width: 11%;
     height: auto;
     margin-top: 3%;
-    margin-left: 13%;
+
 }
 
 .parallax-mirror,#vurtUnderlay{
@@ -145,4 +197,14 @@ body{
 .abt{
     color:#000;
 }
-
+.dis{
+    margin-left: 90px;
+    margin-top: 7%;
+}
+.about span{
+    color: #9E6C0A;
+}
+.hus{
+    font-weight: 700;
+    color: #000;
+}
