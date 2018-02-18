@@ -69,7 +69,7 @@ body{
     }
     .scr img{
         width: 501%;
-        margin-left: -77px;
+        margin-left: -55px;
         margin-top: 136%;
     }
     .abtl{
@@ -80,6 +80,20 @@ body{
     .abtr{
         width: 20%;
         float: right;
+    }
+    .parallax3{
+        min-height: 440px;
+    }
+    .how h1{
+        font-size: 27px;
+    }
+    .how{
+        padding-left: 17%;
+        padding-right: 3%;
+    }
+    .icon{
+        width: 12%;
+        padding-top: 6%;
     }
 
 
@@ -130,6 +144,12 @@ body{
     }
     .dis p{
         font-size: 122%;
+    }
+    .how img{
+        width: 7%;
+    }
+    .icon{
+        padding-top: 6%;
     }
 
 }
@@ -207,4 +227,16 @@ body{
 .hus{
     font-weight: 700;
     color: #000;
+}
+.parallax2{
+    min-height: 288px;
+}
+.how{
+    color: #000;
+    text-align: center;
+    padding-top: 6%;
+
+}
+.icon{
+    padding-top: 6%;
 }
