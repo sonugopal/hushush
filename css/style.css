@@ -70,7 +70,7 @@ body{
     .scr img{
         width: 501%;
         margin-left: -55px;
-        margin-top: 136%;
+        margin-top: 103px;
     }
     .abtl{
         width: 65%;
@@ -160,6 +160,7 @@ body{
     }
     .scr img{
         width: 70%;
+        margin-top: 10px;
     }
     .abt{
 
