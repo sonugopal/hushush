@@ -77,7 +77,7 @@ body{
     .scr img{
         width: 501%;
         margin-left: -55px;
-        margin-top: 122px;
+        margin-top: 104px;
     }
     .abtl{
         width: 65%;
@@ -126,7 +126,7 @@ body{
     }
     .parallax3{
         background: #EDEEF8;
-        margin-top: -10px;
+        margin-top: 0px;
 
     }
     .play{
@@ -150,8 +150,27 @@ body{
         margin-top: -127px;
 
     }
-
-
+    .parallax4{
+        min-height: 0px;
+    }
+    .lineL{
+        position: absolute;
+        width: 26%;
+        margin-top: -41px;
+        margin-left: 17px;
+    }
+    .lineR{
+        width: 26%;
+        position: absolute;
+        margin-left: -133px;
+        margin-top: 76px;
+    }
+    .conDet{
+        margin-top: -37px;
+    }
+    .conDet p{
+        font-size: 8px;
+    }
 
 
 
@@ -207,7 +226,7 @@ body{
     .dis p{
         font-size: 122%;
     }
-    .how img{
+    .how .icon{
         width: 7%;
     }
     .icon{
@@ -257,6 +276,26 @@ body{
         cursor: pointer;
         margin-top: -297px;
     }
+    .lineL{
+        position: absolute;
+        width: 15%;
+        margin-top: -62px;
+        margin-left: 35px;
+    }
+    .lineR{
+        width: 15%;
+        position: absolute;
+        margin-left: -246px;
+        margin-top: 141px;
+    }
+
+    .conDet p{
+        padding: 0px;
+        font-size: 19px;
+    }
+    .conDet{
+        margin-top: -33px;
+    }
 
 }
 
@@ -297,7 +336,7 @@ body{
 }
 .nav-menu{
     margin-top: 6%;
-    margin-left: 10%;
+    margin-left: 0px;
 }
 .intro{
     text-align: center;
@@ -374,4 +413,8 @@ body{
 }
 .play{
     display: none;
+}
+
+.conDet p{
+    color: #9E6C0A;
 }

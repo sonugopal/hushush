@@ -24,8 +24,6 @@ $(document).ready(function() {
     $("#close2").click(function () {
         $("#family").hide();
         $('#couple video').get(0).pause()
-
-
     })
 
 })
