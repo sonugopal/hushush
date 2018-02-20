@@ -21,9 +21,10 @@ $(document).ready(function() {
     $("#play2").click(function () {
         $("#family").show();
     })
-    $("#close2").click(function () {
+
+    $("#clo").click(function () {
         $("#family").hide();
-        $('#couple video').get(0).pause()
+        $('#family video').get(0).pause()
     })
 
 })

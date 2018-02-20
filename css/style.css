@@ -136,12 +136,13 @@ body{
     .play video{
         margin-top: -141px;
         width: 86%;
-        margin-left: 52px;
+        margin-left: 36px;
     }
-    .close{
-        margin-top: -120px;
-        color: #fff;
-        margin-right: -130px;
+    .close2{
+        margin-top: -140px;
+        position: ABSOLUTE;
+        Z-INDEX: 100;
+        MARGIN-LEFT: 349px;
     }
     #close2{
         color: #fff;
@@ -170,6 +171,11 @@ body{
     }
     .conDet p{
         font-size: 8px;
+    }
+    .close1{
+        Z-INDEX: 100;
+        MARGIN-LEFT: 326px;
+        margin-top: -122px;
     }
 
 
@@ -264,17 +270,23 @@ body{
         width: 670px;
         margin-top: -308px;
     }
-    .close{
+    /*.close{
         color: #fff;
         margin-right: -288px;
         cursor: pointer;
         margin-top: -246px;
-    }
-    #close2{
+    }*/
+    .close2{
         color: #fff;
-        margin-right: 44px;
+        margin-left: 600px;
         cursor: pointer;
         margin-top: -297px;
+        position: absolute;
+        z-index: 1;
+    }
+    .close1{
+        margin-right: -270px;
+        margin-top: -239px;
     }
     .lineL{
         position: absolute;
@@ -418,3 +430,13 @@ body{
 .conDet p{
     color: #9E6C0A;
 }
+.close span{
+    color: #fff;
+}
+#family video{
+    position: absolute;
+}
+.close2{
+    position: absolute;
+}
+
