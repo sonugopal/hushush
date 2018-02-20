@@ -15,6 +15,7 @@
 <body>
 <div class="row">
         <div class="col-xs-12 col-lg-12">
+            <div class="head-body">
             <div class="parallax-window" data-parallax="scroll" data-image-src="images/header_bg.jpg" data-position="-10px 0%" data-bleed="10" >
                 <div class="head">
                     <div class="row header">
@@ -56,20 +57,32 @@
                     </div>
 
                 </div>
+
                 <div class="row" id="about">
                     <div class="col-xs-12 col-lg-12">
                         <div class="intro">
                             <h1><span style="color: #7E1D7E  ">Surprise</span> your loved ones!</h1>
                             <p> Download the <span style="font-weight: bold">Hushush</span> app today to help create memories that your loved ones will treassure</p>
-                            <div class="watch">
+                            <div class="watch" id="play1" data-toggle="modal" data-target="#video_modal1">
                                 <img class="img-responsive" src="images/play.png"><p>Watch the Video</p>
+
+
                             </div>
                             <div class="store">
                                 <div class=""><img src="images/google.png" class="img-responsive" style="float:left;"></div>
                                 <div class=""><img src="images/app_store.png" class="img-responsive" style="float:right;"></div>
                             </div>
                         </div>
+                        <div id="couple" class="play">
+                            <button type="button" id="close1" class="close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <video width="400" controls>
+                                <source src="videos/couple.mp4" type="video/mp4">
+                            </video>
+                        </div>
                     </div>
+                </div>
 
             </div>
             </div>
@@ -105,13 +118,21 @@
                    <img class="img-responsive icon" src="images/gift_icon.png">
                    <p>Book complementaty desserts, a greeting card<br> and goody bag to be served during the screening</p>
                    <h2>Wish to know more?</h2>
-                   <div class="watch" style="margin:auto">
+                   <div class="watch" id="play2" style="margin:auto">
                        <img class="img-responsive" src="images/play_black.png"><p>Watch the Video</p>
                    </div>
                    <div style="height: 20px">
 
                    </div>
                </div>
+                <div id="family" class="play">
+                    <button type="button" id="close2" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <video width="400" controls>
+                        <source src="videos/family.mp4" type="video/mp4">
+                    </video>
+                </div>
            </div>
             <div class="parallax-window parallax4" data-parallax="scroll" data-image-src="images/white.jpg" data-position="-10px 0%">
                <div class="row s2">
@@ -153,7 +174,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>

@@ -2,6 +2,10 @@ body{
     color: #ffff;
     font-family: gilroy;
 }
+@font-face {
+    font-family: GraublauWeb;
+    src: url("../gilroy-light.otf") format("opentype");
+}
 
 @media screen and (max-width: 798px) {
     .parallax-window {
@@ -10,6 +14,9 @@ body{
         min-height: 333px;
         margin-left: -65px;
 
+    }
+    .head-body{
+        height: 260px;
     }
     .how p{
         font-size: 11px;
@@ -117,6 +124,33 @@ body{
         padding: 10px;
         padding-left: 85px;
     }
+    .parallax3{
+        background: #EDEEF8;
+        margin-top: -10px;
+
+    }
+    .play{
+        width: 80%;
+        margin: auto;
+    }
+    .play video{
+        margin-top: -141px;
+        width: 86%;
+        margin-left: 52px;
+    }
+    .close{
+        margin-top: -120px;
+        color: #fff;
+        margin-right: -130px;
+    }
+    #close2{
+        color: #fff;
+        margin-right: 8px;
+        cursor: pointer;
+        margin-top: -127px;
+
+    }
+
 
 
 
@@ -128,6 +162,9 @@ body{
         background: transparent;
 
 
+    }
+    .head-body{
+        height: 800px;
     }
     .drawer-btn{
         display: none;
@@ -195,8 +232,35 @@ body{
         font-size: 24px;
         padding: 20px;
     }
+    .parallax3{
+        background: #EDEEF8;
+        margin-top: 0px;
+
+    }
+    .play{
+        width: 700px;
+        margin:auto;
+    }
+    .play video{
+        width: 670px;
+        margin-top: -308px;
+    }
+    .close{
+        color: #fff;
+        margin-right: -288px;
+        cursor: pointer;
+        margin-top: -246px;
+    }
+    #close2{
+        color: #fff;
+        margin-right: 44px;
+        cursor: pointer;
+        margin-top: -297px;
+    }
 
 }
+
+
 .logo{
     max-width: 11%;
     height: auto;
@@ -302,4 +366,12 @@ body{
 }
 .footer p{
     color: #BFCCDD;
+}
+.head-body{
+    background-image: url("../images/header_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.play{
+    display: none;
 }
