@@ -22,14 +22,14 @@ body{
         font-size: 9px;
     }
     .logo{
-        margin-left: 17%;
+        margin-left: 7%;
     }
     .nav-menu{
         display: none;
     }
     .intro{
         margin-top: 8%;
-        margin-left: 7%;
+        /*margin-left: 7%;*/
     }
     .intro h1{
         font-size: 18px;
@@ -141,7 +141,7 @@ body{
         margin-top: -144px;
         position: ABSOLUTE;
         Z-INDEX: 100;
-        MARGIN-LEFT: 194px;
+        MARGIN-LEFT: 258px;
     }
     #close2{
         color: #fff;
@@ -155,15 +155,15 @@ body{
     }
     .lineL{
         position: absolute;
-        width: 30%;
-        margin-top: -27px;
+        width: 26%;
+        margin-top: -34px;
         margin-left: 17px;
     }
     .lineR{
-        width: 29%;
+        width: 26%;
         position: absolute;
-        margin-left: -103px;
-        margin-top: 61px;
+        margin-left: -124px;
+        margin-top: 69px;
     }
     .conDet{
         margin-top: -37px;
@@ -365,9 +365,9 @@ body{
     border-color:#9E6C0A ;
 }
 .store{
-    width: 26%;
-    margin:auto;
-    margin-top: 2%;
+    width: 38%;
+    margin: auto;
+    margin-top: 7%;
 }
 .store img{
     cursor: pointer;
@@ -447,7 +447,7 @@ body{
     margin-left: 0;
 }
 .parallax2{
-    margin-top: -64px;
+    margin-top: -31px;
 }
 parallax3{
     width: 100%;
