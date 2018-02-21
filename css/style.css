@@ -130,18 +130,19 @@ body{
 
     }
     .play{
-        width: 80%;
+        /*width: 80%;*/
         margin: auto;
     }
     .play video{
         margin-top: -141px;
         width: 72%;
+        margin-left: 46px;
     }
     .close2{
         margin-top: -144px;
         position: ABSOLUTE;
         Z-INDEX: 100;
-        MARGIN-LEFT: 258px;
+        MARGIN-LEFT: 306px;
     }
     #close2{
         color: #fff;
@@ -173,8 +174,8 @@ body{
     }
     .close1{
         Z-INDEX: 100;
-        MARGIN-LEFT: 326px;
-        margin-top: -122px;
+        MARGIN-LEFT: 289px;
+        margin-top: -108px;
     }
 
 
