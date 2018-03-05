@@ -1,6 +1,7 @@
 body{
     color: #ffff;
     font-family: gilroy;
+    overflow-x: hidden;
 }
 @font-face {
     font-family: GraublauWeb;
@@ -50,7 +51,7 @@ body{
         height: 18px;
         cursor: pointer;
         /* margin-left: 55%; */
-        margin-top: -5%;
+        margin-top:-2%;
     }
     .watch p{
         font-size: 7px;
@@ -139,10 +140,10 @@ body{
         margin-left: 46px;
     }
     .close2{
-        margin-top: -144px;
+        margin-top: -138px;
         position: ABSOLUTE;
         Z-INDEX: 100;
-        MARGIN-LEFT: 306px;
+        MARGIN-LEFT: 298px;
     }
     #close2{
         color: #fff;
@@ -174,8 +175,8 @@ body{
     }
     .close1{
         Z-INDEX: 100;
-        MARGIN-LEFT: 289px;
-        margin-top: -108px;
+        MARGIN-LEFT: 298px;
+        margin-top: -115px;
     }
 
 
@@ -278,7 +279,7 @@ body{
     }*/
     .close2{
         color: #fff;
-        margin-left: 600px;
+        margin-left: 641px;
         cursor: pointer;
         margin-top: -297px;
         position: absolute;
@@ -286,7 +287,7 @@ body{
     }
     .close1{
         margin-right: -270px;
-        margin-top: -239px;
+        margin-top: -233px;
     }
     .lineL{
         position: absolute;
@@ -434,7 +435,7 @@ body{
     color: #fff;
 }
 #family video{
-    position: absolute;
+    position: relative;
 }
 .close2{
     position: absolute;

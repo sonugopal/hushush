@@ -27,5 +27,8 @@ $(document).ready(function() {
         $('#family video').get(0).pause()
     })
 
+
+
+
 })
 
