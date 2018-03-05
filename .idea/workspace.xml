@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d899b8e8-e5b6-4cb6-982c-03ca51039a7f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/videos/couple3.mp4" afterPath="$PROJECT_DIR$/videos/couple3.mp4" />
+      <change beforePath="$PROJECT_DIR$/videos/family3.mp4" afterPath="$PROJECT_DIR$/videos/family3.mp4" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -223,7 +225,7 @@
       <workItem from="1520266788581" duration="1048000" />
       <workItem from="1520268243453" duration="339000" />
       <workItem from="1520269387676" duration="614000" />
-      <workItem from="1520270626616" duration="4467000" />
+      <workItem from="1520270626616" duration="5587000" />
     </task>
     <task id="LOCAL-00001" summary="footer color changed">
       <created>1518991068165</created>
@@ -236,7 +238,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119245000" />
+    <option name="totallyTimeSpent" value="120365000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="75" y="21" width="1311" height="783" extended-state="6" />
