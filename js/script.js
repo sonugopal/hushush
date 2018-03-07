@@ -30,14 +30,12 @@ $(document).ready(function() {
     })
 
 
-$(window).on("load",function () {
     $('.mainhead').addClass('animated flip');
     $('.mainp').addClass('animated rollIn');
     $('.strImg1').addClass('animated bounceInLeft');
     $('.strImg2').addClass('animated bounceInRight');
     $('.icon').addClass('animated pulse infinite');
     $('.watch').addClass('animated jello infinite');
-})
 
 
 })
