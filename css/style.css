@@ -383,6 +383,7 @@ body{
 }
 .watch{
     border-color:#9E6C0A ;
+    margin: auto;
 }
 .store{
     width: 38%;
