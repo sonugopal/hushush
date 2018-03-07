@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link href="http://vjs.zencdn.net/6.6.3/video-js.css" rel="stylesheet">
+    <script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+
 
 
 </head>
@@ -81,7 +84,7 @@
                             <button type="button" id="close1" class="close close2 close1" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
-                            <video width="400" controls>
+                            <video video id="my-video" class="video-js" controls preload="auto" width="640" data-setup="{}">
                                 <source src="videos/couple3.mp4" type="video/mp4">
                             </video>
                         </div>
@@ -199,6 +202,8 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
 <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+
+<script src="http://vjs.zencdn.net/6.6.3/video.js"></script>
 <!-- drawer.js -->
 
 
