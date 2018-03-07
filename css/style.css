@@ -135,11 +135,11 @@ body{
         /*width: 80%;*/
         margin: auto;
     }
-    .play video{
+    /*.play video{
         margin-top: -141px;
         width: 72%;
         margin-left: 46px;
-    }
+    }*/
     .close2{
         margin-top: -134px;
         position: ABSOLUTE;
@@ -178,6 +178,17 @@ body{
         Z-INDEX: 100;
         MARGIN-LEFT: 287px;
         margin-top: -110px;
+    }
+
+    .video-js {
+        height: 185px;
+    }
+    .my-video-dimensions {
+        width: 80%;
+        margin: auto;
+    }
+    .video-js{
+        z-index:1000;
     }
 
 
