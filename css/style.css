@@ -54,9 +54,10 @@ body{
         margin-top:-2%;
     }
     .watch p{
-        font-size: 7px;
+        font-size: 6px;
         margin-right: 18px;
         padding-top: 2px;
+        font-weight: 700;
     }
     .store img{
         width: 46%;
