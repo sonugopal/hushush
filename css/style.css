@@ -190,6 +190,10 @@ body{
     .video-js{
         z-index:1000;
     }
+    .my-video2-dimensions {
+        width: 80%;
+        margin: auto;
+    }
 
 
 

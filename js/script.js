@@ -11,6 +11,7 @@ $(document).ready(function() {
 
     $("#play1").click(function () {
         $("#couple").show();
+        $('#couple video').get(0).play()
     })
     $("#close1").click(function () {
         $("#couple").hide();
@@ -20,6 +21,7 @@ $(document).ready(function() {
     })
     $("#play2").click(function () {
         $("#family").show();
+        $('#family video').get(0).play()
     })
 
     $("#clo").click(function () {
