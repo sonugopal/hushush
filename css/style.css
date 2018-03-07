@@ -144,7 +144,7 @@ body{
         margin-top: 0;
         position: ABSOLUTE;
         Z-INDEX: 1001;
-        MARGIN-LEFT: 349px;
+        MARGIN-LEFT: 305px;
     }
     #close2{
         color: #fff;
@@ -176,7 +176,7 @@ body{
     }
     .close1{
         Z-INDEX: 1001;
-        MARGIN-LEFT: 150px;
+        MARGIN-LEFT: 132px;
         margin-top: 0px;
         position: absolute;
     }
