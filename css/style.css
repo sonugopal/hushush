@@ -4,7 +4,7 @@ body{
     overflow-x: hidden;
 }
 @font-face {
-    font-family: GraublauWeb;
+    font-family: gilroy;
     src: url("../gilroy-light.otf") format("opentype");
 }
 
@@ -369,7 +369,7 @@ body{
 .store{
     width: 38%;
     margin: auto;
-    margin-top: 7%;
+
 }
 .store img{
     cursor: pointer;
