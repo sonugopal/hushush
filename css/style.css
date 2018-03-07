@@ -5,7 +5,7 @@ body{
 }
 @font-face {
     font-family: gilroy;
-    src: url("../gilroy-light.otf") format("opentype");
+    src: url("../font/gilroy/Gilroy-Light.otf") format("opentype");
 }
 
 @media screen and (max-width: 798px) {
