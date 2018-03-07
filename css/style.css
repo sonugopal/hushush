@@ -481,13 +481,18 @@ parallax3{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
     transition: 0.3s;
     color: #ffffff;
+    opacity: .7;
 }
 .store img:hover{
     transition: 0.3s;
     width: 50%;
+    opacity: .7;
 }
 .nav-menu a:hover{
     color:#7E1D7E ;
     transition: 0.3s;
     font-weight: 900;
+}
+.store img{
+    -webkit-transition: opacity 2s ease-in;
 }
