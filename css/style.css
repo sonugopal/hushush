@@ -499,3 +499,7 @@ parallax3{
 .ani{
     transition: 0.3s;
 }
+.mainhead{
+    animation-duration: 10s;
+    -webkit-animation-duration: 10s;
+}
