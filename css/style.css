@@ -496,3 +496,6 @@ parallax3{
 .store img{
     -webkit-transition: opacity 2s ease-in;
 }
+.ani{
+    transition: 0.3s;
+}

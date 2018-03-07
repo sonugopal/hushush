@@ -29,7 +29,10 @@ $(document).ready(function() {
         $('#family video').get(0).pause()
     })
 
-
+    $('.icon').addClass('animated pulse infinite');
+    $('.watch').addClass('animated jello infinite');
+    $('.scr').addClass('animated bounce infinite');
+    $('.str2').addClass('animated pulse infinite');
 
 
 })
