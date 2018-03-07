@@ -141,10 +141,10 @@ body{
         margin-left: 46px;
     }*/
     .close2{
-        margin-top: -134px;
+        margin-top: 0;
         position: ABSOLUTE;
-        Z-INDEX: 100;
-        MARGIN-LEFT: 288px;
+        Z-INDEX: 1001;
+        MARGIN-LEFT: 349px;
     }
     #close2{
         color: #fff;
@@ -175,9 +175,10 @@ body{
         font-size: 8px;
     }
     .close1{
-        Z-INDEX: 100;
-        MARGIN-LEFT: 287px;
-        margin-top: -110px;
+        Z-INDEX: 1001;
+        MARGIN-LEFT: 150px;
+        margin-top: 0px;
+        position: absolute;
     }
 
     .video-js {
@@ -294,15 +295,17 @@ body{
     }*/
     .close2{
         color: #fff;
-        margin-left: 641px;
+        margin-left: 623px;
         cursor: pointer;
-        margin-top: -297px;
+        margin-top: 0px;
         position: absolute;
-        z-index: 1;
+        z-index: 1001;
     }
     .close1{
-        margin-right: -270px;
-        margin-top: -233px;
+        margin-top: 5px;
+        margin-left: 288px;
+        position: absolute;
+        z-index: 1001;
     }
     .lineL{
         position: absolute;
