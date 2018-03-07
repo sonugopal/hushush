@@ -31,8 +31,7 @@ $(document).ready(function() {
 
     $('.icon').addClass('animated pulse infinite');
     $('.watch').addClass('animated jello infinite');
-    $('.scr').addClass('animated bounce infinite');
-    $('.str2').addClass('animated pulse infinite');
+
 
 
 })
