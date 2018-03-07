@@ -51,8 +51,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="59" column="25" lean-forward="false" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
+            <state relative-caret-position="170">
+              <caret line="58" column="25" lean-forward="true" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -235,7 +235,7 @@
       <workItem from="1520268243453" duration="339000" />
       <workItem from="1520269387676" duration="614000" />
       <workItem from="1520270626616" duration="6531000" />
-      <workItem from="1520419745311" duration="2360000" />
+      <workItem from="1520419745311" duration="2780000" />
     </task>
     <task id="LOCAL-00001" summary="footer color changed">
       <created>1518991068165</created>
@@ -248,7 +248,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123669000" />
+    <option name="totallyTimeSpent" value="124089000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="75" y="21" width="1311" height="783" extended-state="6" />
@@ -865,8 +865,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="59" column="25" lean-forward="false" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
+        <state relative-caret-position="170">
+          <caret line="58" column="25" lean-forward="true" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
           <folding />
         </state>
       </provider>
