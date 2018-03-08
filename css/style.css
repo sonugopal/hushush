@@ -175,7 +175,7 @@ body{
         font-size: 8px;
     }
     .close1{
-        Z-INDEX: 1001;
+        Z-INDEX: 2001;
         MARGIN-LEFT: 132px;
         margin-top: 0px;
         position: absolute;
@@ -306,7 +306,7 @@ body{
         margin-top: 5px;
         margin-left: 288px;
         position: absolute;
-        z-index: 1001;
+        z-index: 2001;
     }
     .lineL{
         position: absolute;
