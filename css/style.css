@@ -503,3 +503,6 @@ parallax3{
     animation-duration: 10s;
     -webkit-animation-duration: 10s;
 }
+.my-video-dimensions{
+    z-index: 2000;
+}
