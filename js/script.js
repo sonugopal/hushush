@@ -38,5 +38,7 @@ $(window).on("load",function () {
     $('.strImg2').addClass('animated bounceInRight');
     $('.icon').addClass('animated pulse infinite');
     $('.watch').addClass('animated jello infinite');
+    $('.watch').addClass('animated jello infinite');
+    $('.social-icons img').addClass('animated flash infinite');
 })
 

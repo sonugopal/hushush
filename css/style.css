@@ -195,11 +195,29 @@ body{
         width: 80%;
         margin: auto;
     }
+    .con{
+        margin-top: -11px;
+    }
+    .social{
+        margin-top: -8%;
+    }
+    .social-icons{
+        width: 5%;
+    }
 
 
 
 }
 @media screen and (min-width: 798px) {
+    .con{
+        margin-top: -28px;
+    }
+    .social{
+        margin-top: -2%;
+    }
+    .social-icons{
+        width: 2%;
+    }
     .parallax-window {
         min-height: 0;
         background: transparent;
@@ -428,9 +446,9 @@ body{
 .s2{
     background-image: linear-gradient(to right top, #53335c, #53335d, #53335f, #523460, #523462);
 }
-.con{
+/*.con{
     margin-top: -28px;
-}
+}*/
 .footer span{
     color: #9E6C0A;
 }
@@ -526,3 +544,16 @@ parallax3{
     font-family: gilroy;
     color: #53335c;
 }
+.social-icons{
+    margin: auto;
+    display: inline-block;
+    margin-left: 2%;
+}
+.social-icons img{
+    width: 100%;
+    background: #fff;
+    border-radius: 50%;
+}
+/*.social{
+    margin-top: -2%;
+}*/
