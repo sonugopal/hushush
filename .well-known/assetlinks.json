@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "co.hushush.users",
+    "sha256_cert_fingerprints":
+    ["17:6C:F0:D4:E0:8F:EB:EC:98:1E:49:42:2D:21:3D:F6:CF:B8:55:14:1D:6F:09:54:40:79:3D:66:08:57:26:AB"]
+  }
+}]
